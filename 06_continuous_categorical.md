@@ -470,7 +470,7 @@ A new variant of the types of plots discussed in this lesson is the ridgeline pl
 <div markdown="1" style="display:none;">
 
 ```r
-#install.packages("ggridges")
+install.packages("ggridges")
 library(ggridges)
 ```
 
