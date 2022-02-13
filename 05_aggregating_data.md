@@ -751,7 +751,7 @@ get_bmi_category <- function(weight_kg, height_cm){
 	bmi_cat <- case_when(bmi >= 30 ~ "obese",
 			bmi >= 25 ~ "overweight",
  			bmi >= 18.5 ~ "normal",
-			bmi > 0 ~ "underweight"
+			bmi > 0 ~ "underweight",
 			TRUE ~ NA_character_,
 			)
 
